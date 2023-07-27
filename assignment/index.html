@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Banking Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>My Banking</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Accounts</a></li>
+          <li><a href="#">Transfer Money</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h2>Welcome to My Banking</h2>
+        <p>Secure, Fast, and Reliable banking services.</p>
+        <a href="#" class="button">Open an Account</a>
+      </div>
+    </section>
+
+    <section class="services">
+      <div class="container">
+        <h3>Our Services</h3>
+        <ul>
+          <li>Checking Accounts</li>
+          <li>Savings Accounts</li>
+          <li>Personal Loans</li>
+          <li>Mortgages</li>
+          <li>Credit Cards</li>
+          <li>Investment Services</li>
+          <li>Online Banking</li>
+          <li>Mobile App</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="benefits">
+      <div class="container">
+        <h3>Benefits of My Banking</h3>
+        <ul>
+          <li>24/7 Customer Support</li>
+          <li>High Security Standards</li>
+          <li>Competitive Interest Rates</li>
+          <li>Easy Online Application</li>
+          <li>Flexible Repayment Options</li>
+          <li>Customized Investment Plans</li>
+          <li>Convenient Mobile Banking</li>
+          <li>Exclusive Rewards Program</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="account">
+      <div class="container">
+        <h3>Open an Account</h3>
+        <form id="accountForm">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="accountType">Account Type:</label>
+          <select id="accountType" name="accountType" required>
+            <option value="checking">Checking Account</option>
+            <option value="savings">Savings Account</option>
+          </select>
+
+          <button type="submit" class="button">Open Account</button>
+        </form>
+        <p id="errorText" class="error-message"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 My Banking. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
